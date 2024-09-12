@@ -1,7 +1,7 @@
 #pragma once
 
-#include "Core/Application.h"
-#include "Core/Log.h"
+#include "SunEngine/Application.h"
+#include "SunEngine/Log.h"
 
 
-#include "Core/EntryPoint.h"
+#include "SunEngine/EntryPoint.h"

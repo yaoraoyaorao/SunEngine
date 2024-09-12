@@ -1,14 +1,14 @@
 #pragma once
-#include <memory>
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 namespace SunEngine {
 	class SUN_API Log
 	{
 	public:
 		static void Init();
 		inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return m_CoreLogger; }
-		inline static std::shared_ptr<spdlog::logger>& GetClineLogger() { return m_CoreLogger; }
+		inline static std::shared_ptr<spdlog::logger>& GetClineLogger() { return m_ClineLogger; }
 	private:
 		static std::shared_ptr<spdlog::logger> m_CoreLogger;
 		static std::shared_ptr<spdlog::logger> m_ClineLogger;
@@ -24,4 +24,3 @@ namespace SunEngine {
 #define SUN_WARN(...)			::SunEngine::Log::GetClineLogger()->warn(__VA_ARGS__)
 #define SUN_INFO(...)			::SunEngine::Log::GetClineLogger()->info(__VA_ARGS__)
 #define SUN_TRACE(...)			::SunEngine::Log::GetClineLogger()->trace(__VA_ARGS__)
-
