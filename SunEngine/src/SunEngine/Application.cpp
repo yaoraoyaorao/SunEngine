@@ -1,10 +1,8 @@
 #include "sunpch.h"
 #include "Application.h"
-#include "SunEngine/Event/ApplicationEvent.h"
-#include "SunEngine/Log.h"
 namespace SunEngine {
 	Application::Application() {
-
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
 	Application::~Application() {
@@ -12,8 +10,9 @@ namespace SunEngine {
 	}
 
 	void Application::Run() {
-		WindowResizeEvent e(1280, 720);
-		
-		while (true);
+		while (m_Running)
+		{
+			m_Window->OnUpdate();
+		}
 	}
 }

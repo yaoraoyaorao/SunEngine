@@ -35,6 +35,8 @@
       <Filter>SunEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\sunpch.h" />
+    <ClInclude Include="src\SunEngine\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WinWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\SunEngine\Application.cpp">
@@ -44,5 +46,6 @@
       <Filter>SunEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\sunpch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WinWindow.cpp" />
   </ItemGroup>
 </Project>

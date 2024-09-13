@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "SunEngine/Log.h"
+
 #ifdef SUN_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif

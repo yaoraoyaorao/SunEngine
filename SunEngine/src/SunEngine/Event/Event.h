@@ -2,6 +2,7 @@
 /*
 * 事件基类
 */
+#include "sunpch.h"
 #include "SunEngine/Core.h"
 namespace SunEngine {
 	enum class EventType {
