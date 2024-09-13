@@ -1,3 +1,6 @@
 [submodule "SunEngine/vendor/spdlog"]
 	path = SunEngine/vendor/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "SunEngine/vendor/GLFW"]
+	path = SunEngine/vendor/GLFW
+	url = https://github.com/TheCherno/glfw.git
