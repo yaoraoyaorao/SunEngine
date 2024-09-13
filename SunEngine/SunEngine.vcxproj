@@ -152,6 +152,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Platform\Windows\WinWindow.h" />
     <ClInclude Include="src\SunEngine.h" />
     <ClInclude Include="src\SunEngine\Application.h" />
     <ClInclude Include="src\SunEngine\Core.h" />
@@ -163,15 +164,14 @@
     <ClInclude Include="src\SunEngine\Log.h" />
     <ClInclude Include="src\SunEngine\Window.h" />
     <ClInclude Include="src\sunpch.h" />
-    <ClInclude Include="src\Platform\Windows\WinWindow.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Platform\Windows\WinWindow.cpp" />
     <ClCompile Include="src\SunEngine\Application.cpp" />
     <ClCompile Include="src\SunEngine\Log.cpp" />
     <ClCompile Include="src\sunpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src\Platform\Windows\WinWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="vendor\GLFW\GLFW.vcxproj">
