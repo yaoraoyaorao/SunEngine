@@ -2,7 +2,7 @@
 
 #include "sunpch.h"
 #include "SunEngine/Core.h"
-#include "SunEngine/Event/Event.h"
+#include "SunEngine/Events/Event.h"
 /*
 	抽象窗口类：平台无关
 */
@@ -31,6 +31,8 @@ namespace SunEngine {
 		virtual void SetVSync(bool enabled) = 0;
 		virtual bool IsVSync() const = 0;
 
+		virtual void* GetNativeWindow() const = 0;
+		
 		static Window* Create(const WindowProps& props = WindowProps());
 	};
 }

@@ -10,8 +10,8 @@
     <Filter Include="SunEngine">
       <UniqueIdentifier>{D156066D-3DC1-BAE3-86FF-6B89F2A89838}</UniqueIdentifier>
     </Filter>
-    <Filter Include="SunEngine\Event">
-      <UniqueIdentifier>{E2F0FFF4-4E7C-6DB9-578D-F0ADC397C9B9}</UniqueIdentifier>
+    <Filter Include="SunEngine\Events">
+      <UniqueIdentifier>{950DFE94-8106-1DE7-AA38-026C9690FCF2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -28,17 +28,23 @@
     <ClInclude Include="src\SunEngine\EntryPoint.h">
       <Filter>SunEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Event\ApplicationEvent.h">
-      <Filter>SunEngine\Event</Filter>
+    <ClInclude Include="src\SunEngine\Events\ApplicationEvent.h">
+      <Filter>SunEngine\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Event\Event.h">
-      <Filter>SunEngine\Event</Filter>
+    <ClInclude Include="src\SunEngine\Events\Event.h">
+      <Filter>SunEngine\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Event\KeyEvent.h">
-      <Filter>SunEngine\Event</Filter>
+    <ClInclude Include="src\SunEngine\Events\KeyEvent.h">
+      <Filter>SunEngine\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Event\MouseEvent.h">
-      <Filter>SunEngine\Event</Filter>
+    <ClInclude Include="src\SunEngine\Events\MouseEvent.h">
+      <Filter>SunEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Layer.h">
+      <Filter>SunEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\LayerStack.h">
+      <Filter>SunEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\SunEngine\Log.h">
       <Filter>SunEngine</Filter>
@@ -47,6 +53,12 @@
       <Filter>SunEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\sunpch.h" />
+    <ClInclude Include="src\SunEngine\ImGui\ImGuiLayer.h" />
+    <ClInclude Include="src\Platform\OpenGL\imgui_impl_opengl3.h" />
+    <ClInclude Include="src\SunEngine\Input.h" />
+    <ClInclude Include="src\Platform\Windows\WinInput.h" />
+    <ClInclude Include="src\SunEngine\KeyCodes.h" />
+    <ClInclude Include="src\SunEngine\MouseButtonCodes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Platform\Windows\WinWindow.cpp">
@@ -55,9 +67,18 @@
     <ClCompile Include="src\SunEngine\Application.cpp">
       <Filter>SunEngine</Filter>
     </ClCompile>
+    <ClCompile Include="src\SunEngine\Layer.cpp">
+      <Filter>SunEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunEngine\LayerStack.cpp">
+      <Filter>SunEngine</Filter>
+    </ClCompile>
     <ClCompile Include="src\SunEngine\Log.cpp">
       <Filter>SunEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\sunpch.cpp" />
+    <ClCompile Include="src\SunEngine\ImGui\ImGuiLayer.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="src\Platform\Windows\WinInput.cpp" />
   </ItemGroup>
 </Project>

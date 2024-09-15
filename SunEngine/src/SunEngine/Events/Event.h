@@ -5,6 +5,10 @@
 #include "sunpch.h"
 #include "SunEngine/Core.h"
 namespace SunEngine {
+
+	/// <summary>
+	/// 事件类型
+	/// </summary>
 	enum class EventType {
 		None = 0,
 		// 窗口事件
@@ -17,6 +21,9 @@ namespace SunEngine {
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 
+	/// <summary>
+	/// 事件分类 使用位掩码
+	/// </summary>
 	enum EventCategory {
 		None = 0,
 		EventCategoryApplication		= BIT(0),
@@ -38,6 +45,7 @@ namespace SunEngine {
 	class SUN_API Event {
 		friend class EventDispatcher;
 	public:
+		virtual ~Event() = default;
 		virtual EventType GetEventType()	const = 0;
 		virtual const char* GetName()		const = 0;
 		virtual int GetCategoryFlags()		const = 0;
@@ -46,12 +54,14 @@ namespace SunEngine {
 		inline bool IsInCategory(EventCategory category) {
 			return GetCategoryFlags() & category;
 		}
+
+		inline bool Handled() const { return m_Handled;}
 	protected:
 		bool m_Handled = false;
 	};
 
 	/// <summary>
-	/// 事件分发器
+	/// 事件调度器
 	/// </summary>
 	class EventDispatcher {
 		template<typename T>
@@ -65,7 +75,7 @@ namespace SunEngine {
 		bool Dispatch(EventFn<T> func) {
 			if (m_Event.GetEventType() == T::GetStaticType())
 			{
-				m_Event.m_Handled = func(*(T*)&m_Event);
+				m_Event.m_Handled |= func(*(T*)&m_Event);
 				return true;
 			}
 			return false;
