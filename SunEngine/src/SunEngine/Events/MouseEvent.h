@@ -5,7 +5,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 鼠标移动事件
 	/// </summary>
-	class SUN_API MouseMovedEvent :public Event {
+	class MouseMovedEvent :public Event {
 	public:
 		MouseMovedEvent(float x,float y):m_MouseX(x),m_MouseY(y){}
 		inline float GetX() const { return m_MouseX; }
@@ -26,7 +26,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 鼠标滚轮事件
 	/// </summary>
-	class SUN_API MouseScrolledEvent :public Event {
+	class MouseScrolledEvent :public Event {
 	public:
 		MouseScrolledEvent(float xoffset,float yoffset):
 			m_XOffset(xoffset),m_YOffset(yoffset){}
@@ -49,7 +49,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 鼠标按键事件
 	/// </summary>
-	class SUN_API MouseButtonEvent :public Event {
+	class MouseButtonEvent :public Event {
 	public:
 		inline int GetMouseButton() const { return m_Button; }
 		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
@@ -61,7 +61,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 鼠标按键按下事件
 	/// </summary>
-	class SUN_API MouseButtonPressedEvent :public MouseButtonEvent {
+	class MouseButtonPressedEvent :public MouseButtonEvent {
 	public:
 		MouseButtonPressedEvent(int button):MouseButtonEvent(button){}
 
@@ -77,7 +77,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 鼠标按键释放事件
 	/// </summary>
-	class SUN_API MouseButtonReleasedEvent :public MouseButtonEvent {
+	class MouseButtonReleasedEvent :public MouseButtonEvent {
 	public:
 		MouseButtonReleasedEvent(int button):MouseButtonEvent(button){}
 

@@ -7,3 +7,6 @@
 [submodule "SunEngine/vendor/imgui"]
 	path = SunEngine/vendor/imgui
 	url = https://github.com/ocornut/imgui.git
+[submodule "SunEngine/vendor/glm"]
+	path = SunEngine/vendor/glm
+	url = https://github.com/g-truc/glm.git

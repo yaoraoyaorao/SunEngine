@@ -1,15 +1,16 @@
 #pragma once
 #include "SunEngine/Layer.h"
 namespace SunEngine {
-	class SUN_API ImGuiLayer : public Layer
+	class ImGuiLayer : public Layer
 	{
 	public:
 		ImGuiLayer();
 		~ImGuiLayer();
 		virtual void OnAttach() override;
 		virtual void OnDetach() override;
-		virtual void OnUpdate() override;
-		virtual void OnEvent(Event& e) override;
+		virtual void OnImGuiRender() override;
+		void OnBegin();
+		void OnEnd();
 	private:
 		float m_Time = 0.0f;
 	};

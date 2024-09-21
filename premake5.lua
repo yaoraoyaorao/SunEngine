@@ -14,15 +14,20 @@ IncludeDir = {}
 IncludeDir["GLFW"] = "SunEngine/vendor/GLFW/include"
 IncludeDir["Glad"] = "SunEngine/vendor/Glad/include"
 IncludeDir["ImGui"] = "SunEngine/vendor/imgui"
+IncludeDir["glm"] = "SunEngine/vendor/glm"
+IncludeDir["stb_image"] = "SunEngine/vendor/stb_image"
+
 include "SunEngine/vendor/GLFW"
 include "SunEngine/vendor/Glad"
 include "SunEngine/vendor/imgui"
 
 project "SunEngine"
     location "SunEngine"
-    kind "SharedLib"
+    kind "StaticLib"
     language "C++"
-    
+    staticruntime "on"
+    cppdialect "C++17"
+
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
@@ -33,6 +38,15 @@ project "SunEngine"
     {
        "%{prj.name}/src/**.h",
        "%{prj.name}/src/**.cpp",
+       "%{prj.name}/vendor/stb_image/**.h",
+       "%{prj.name}/vendor/stb_image/**.cpp",
+       "%{prj.name}/vendor/glm/glm/**.hpp",
+       "%{prj.name}/vendor/glm/glm/**.inl",
+    }
+
+    defines
+    {
+        "_CRT_SECURE_NO_WARNINGS"
     }
 
     includedirs 
@@ -41,7 +55,9 @@ project "SunEngine"
         "%{prj.name}/vendor/spdlog/include",
         "%{IncludeDir.GLFW}",
         "%{IncludeDir.Glad}",
-        "%{IncludeDir.ImGui}"
+        "%{IncludeDir.ImGui}",
+        "%{IncludeDir.glm}",
+        "%{IncludeDir.stb_image}"
     }
 
     links
@@ -53,7 +69,6 @@ project "SunEngine"
     }
 
     filter "system:windows"
-        cppdialect "C++17"
         staticruntime "On"
         systemversion "latest"
 
@@ -61,33 +76,32 @@ project "SunEngine"
         {
             "SUN_PLATFORM_WINDOWS",
             "SUN_BUILD_DLL",
-            "GLFW_INCLUDE_NONE"
-        }
-
-        postbuildcommands
-        {
-            ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/SandBox")
+            "GLFW_INCLUDE_NONE",
+            "SUN_ENABLE_ASSERTS"
         }
 
     filter "configurations:Debug"
         defines "SUN_DEBUG"
-        buildoptions "/MDd"
-        symbols "On"
+        runtime "Debug"
+        symbols "on"
 
     filter "configurations:Release"
         defines "SUN_RELEASE"
-        buildoptions "/MD"
-        optimize "On"
+        runtime "Release"
+        optimize "on"
 
     filter "configurations:Dist"
         defines "SUN_DIST"
-        buildoptions "/MD"
-        optimize "On"
+        runtime "Release"
+        optimize "on"
 
 project "SandBox"
     location "SandBox"
     kind "ConsoleApp"
     language "C++"
+    cppdialect "C++17"
+    staticruntime "on"
+
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
@@ -101,7 +115,9 @@ project "SandBox"
     includedirs 
     {
         "SunEngine/vendor/spdlog/include",
-        "SunEngine/src"
+        "SunEngine/src",
+        "SunEngine/vendor",
+        "%{IncludeDir.glm}"
     }
 
     links
@@ -110,7 +126,6 @@ project "SandBox"
 	}
 
     filter "system:windows"
-        cppdialect "C++17"
         staticruntime "On"
         systemversion "latest"
 
@@ -121,15 +136,12 @@ project "SandBox"
 
     filter "configurations:Debug"
         defines "SUN_DEBUG"
-        buildoptions "/MDd"
-        symbols "On"
+        symbols "on"
 
     filter "configurations:Release"
         defines "SUN_RELEASE"
-        buildoptions "/MD"
-        optimize "On"
+        optimize "on"
 
     filter "configurations:Dist"
         defines "SUN_DIST"
-        buildoptions "/MD"
-        optimize "On"
+        optimize "on"

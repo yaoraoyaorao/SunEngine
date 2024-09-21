@@ -15,7 +15,7 @@ namespace SunEngine{
 		auto state = glfwGetKey(window, keycode);
 		return state == GLFW_PRESS || state == GLFW_REPEAT;
 	}
-
+	 
 	bool WinInput::IsMouseButtonPressedImpl(int button)
 	{
 		auto window = static_cast<GLFWwindow*>(Application::Instance().GetWindow().GetNativeWindow());

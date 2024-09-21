@@ -5,7 +5,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 键盘事件基类，监听键位
 	/// </summary>
-	class SUN_API KeyEvent :public Event {
+	class KeyEvent :public Event {
 	public:
 		inline int GetKeyCode() const { return m_KeyCode; }
 
@@ -19,7 +19,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 键盘按下事件
 	/// </summary>
-	class SUN_API KeyPressedEvent :public KeyEvent {
+	class KeyPressedEvent :public KeyEvent {
 	public:
 		KeyPressedEvent(int keycode,int repeatCount)
 			:KeyEvent(keycode), m_RepeatCount(repeatCount) {}
@@ -37,7 +37,7 @@ namespace SunEngine {
 		int m_RepeatCount;
 	};
 
-	class SUN_API KeyReleasedEvent :public KeyEvent {
+	class KeyReleasedEvent :public KeyEvent {
 	public:
 		KeyReleasedEvent(int keycode):KeyEvent(keycode) {}
 

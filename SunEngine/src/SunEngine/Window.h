@@ -16,7 +16,7 @@ namespace SunEngine {
 			Title(title), Width(width), Height(height) {}
 	};
 
-	class SUN_API Window {
+	class Window {
 	public:
 		using EventCallbackFn = std::function<void(Event&)>;
 

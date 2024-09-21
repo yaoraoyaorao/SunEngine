@@ -4,7 +4,7 @@
 #include <vector>
 namespace SunEngine
 {
-	class SUN_API LayerStack {
+	class LayerStack {
 	public:
 		LayerStack();
 		~LayerStack();
@@ -19,6 +19,6 @@ namespace SunEngine
 
 	private:
 		std::vector<Layer*> m_Layers;
-		std::vector<Layer*>::iterator m_LayerInsert;
+		unsigned int m_LayerInsertIndex = 0;
 	};
 }

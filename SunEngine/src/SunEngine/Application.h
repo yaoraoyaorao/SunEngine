@@ -1,11 +1,13 @@
 #pragma once
 #include "Core.h"
-
 #include "Window.h"
+
 #include "SunEngine/LayerStack.h"
+#include "SunEngine/Core/TimeStep.h"
+#include "SunEngine/ImGui/ImGuiLayer.h"
 #include "SunEngine/Events/ApplicationEvent.h"
 namespace SunEngine {
-	class SUN_API Application
+	class Application
 	{
 	public:
 		Application();
@@ -19,10 +21,14 @@ namespace SunEngine {
 		inline static Application& Instance() { return *m_Instance; }
 		inline Window& GetWindow() { return *m_Window; }
 	private:
+		bool OnWindowClose(WindowCloseEvent& e);
+	private:
 		bool m_Running = true;
 		std::unique_ptr<Window> m_Window;
+		Timestep m_TimeStep;
+		ImGuiLayer* m_ImGuiLayer;
 		LayerStack m_LayerStack;
-		bool OnWindowClose(WindowCloseEvent& e);
+		float m_LastFrameTime = 0.0f;
 	private:
 		static Application* m_Instance;
 	};

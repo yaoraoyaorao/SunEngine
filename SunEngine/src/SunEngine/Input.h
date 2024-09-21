@@ -2,7 +2,7 @@
 
 #include "SunEngine/Core.h"
 namespace SunEngine {
-	class SUN_API Input{
+	class Input{
 	public:
 		static bool IsKeyPressed(int keycode) { return m_Instance->IsKeyPressedImpl(keycode); }
 		static bool IsMouseButtonPressed(int button) { return m_Instance->IsMouseButtonPressedImpl(button); }

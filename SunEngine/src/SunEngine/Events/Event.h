@@ -42,7 +42,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 事件基类
 	/// </summary>
-	class SUN_API Event {
+	class Event {
 		friend class EventDispatcher;
 	public:
 		virtual ~Event() = default;

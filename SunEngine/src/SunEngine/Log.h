@@ -1,17 +1,20 @@
 #pragma once
-#include "SunEngine/Core.h"
-#include "spdlog/spdlog.h"
-#include "spdlog/fmt/ostr.h"
+
+#pragma warning(push, 0)
+#include <spdlog/spdlog.h>
+#include <spdlog/fmt/ostr.h>
+#pragma warning(pop)
+
 namespace SunEngine {
-	class SUN_API Log
+	class Log
 	{
 	public:
 		static void Init();
 		inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return m_CoreLogger; }
-		inline static std::shared_ptr<spdlog::logger>& GetClineLogger() { return m_ClineLogger; }
+		inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return m_ClientLogger; }
 	private:
 		static std::shared_ptr<spdlog::logger> m_CoreLogger;
-		static std::shared_ptr<spdlog::logger> m_ClineLogger;
+		static std::shared_ptr<spdlog::logger> m_ClientLogger;
 	};
 }
 
@@ -20,7 +23,7 @@ namespace SunEngine {
 #define SUN_CORE_INFO(...)		::SunEngine::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define SUN_CORE_TRACE(...)		::SunEngine::Log::GetCoreLogger()->trace(__VA_ARGS__)
 
-#define SUN_ERROR(...)			::SunEngine::Log::GetClineLogger()->error(__VA_ARGS__)
-#define SUN_WARN(...)			::SunEngine::Log::GetClineLogger()->warn(__VA_ARGS__)
-#define SUN_INFO(...)			::SunEngine::Log::GetClineLogger()->info(__VA_ARGS__)
-#define SUN_TRACE(...)			::SunEngine::Log::GetClineLogger()->trace(__VA_ARGS__)
+#define SUN_ERROR(...)			::SunEngine::Log::GetClientLogger()->error(__VA_ARGS__)
+#define SUN_WARN(...)			::SunEngine::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define SUN_INFO(...)			::SunEngine::Log::GetClientLogger()->info(__VA_ARGS__)
+#define SUN_TRACE(...)			::SunEngine::Log::GetClientLogger()->trace(__VA_ARGS__)

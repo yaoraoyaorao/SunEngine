@@ -3,7 +3,7 @@
 
 namespace SunEngine {
 	LayerStack::LayerStack() {
-		m_LayerInsert = m_Layers.begin();
+
 	}
 
 	LayerStack::~LayerStack() {
@@ -12,7 +12,8 @@ namespace SunEngine {
 	}
 
 	void LayerStack::PushLayer(Layer* layout) {
-		m_LayerInsert = m_Layers.emplace(m_LayerInsert, layout);
+		m_Layers.emplace(m_Layers.begin() + m_LayerInsertIndex, layout);
+		m_LayerInsertIndex++;
 	}
 
 	void LayerStack::PushOverlay(Layer* layout) {
@@ -24,7 +25,7 @@ namespace SunEngine {
 		if (it != m_Layers.end())
 		{
 			m_Layers.erase(it);
-			m_LayerInsert--;
+			m_LayerInsertIndex--;
 		}
 	}
 

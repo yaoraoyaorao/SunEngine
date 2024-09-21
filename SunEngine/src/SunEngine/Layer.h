@@ -1,16 +1,18 @@
 #pragma once
 #include "SunEngine/Core.h"
+#include "SunEngine/Core/TimeStep.h"
 #include "SunEngine/Events/Event.h"
 namespace SunEngine {
-	class SUN_API Layer{
+	class Layer{
 	public:
 		Layer(const std::string& name = "Layout");
 		virtual ~Layer();
 
 		virtual void OnAttach() {}
 		virtual void OnDetach() {}
-		virtual void OnUpdate() {}
+		virtual void OnUpdate(Timestep ts) {}
 		virtual void OnEvent(Event& e) {}
+		virtual void OnImGuiRender() {}
 
 		inline const std::string& GetName() const { return m_DebugName; }
 

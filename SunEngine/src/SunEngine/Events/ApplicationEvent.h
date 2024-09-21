@@ -6,7 +6,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 窗口调整大小事件
 	/// </summary>
-	class SUN_API WindowResizeEvent :public Event {
+	class WindowResizeEvent :public Event {
 	public:
 		WindowResizeEvent(unsigned int width,unsigned int height)
 			: m_Width(width), m_Height(height) {}
@@ -26,7 +26,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 窗口关闭事件
 	/// </summary>
-	class SUN_API WindowCloseEvent :public Event {
+	class WindowCloseEvent :public Event {
 	public:
 		WindowCloseEvent(){}
 		EVENT_CLASS_TYPE(WindowClose)
@@ -36,7 +36,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 程序Tick事件
 	/// </summary>
-	class SUN_API AppTickEvent :public Event {
+	class AppTickEvent :public Event {
 	public:
 		AppTickEvent(){}
 		EVENT_CLASS_TYPE(AppTick)
@@ -46,7 +46,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 程序更新事件
 	/// </summary>
-	class SUN_API AppUpdateEvent :public Event {
+	class AppUpdateEvent :public Event {
 	public:
 		AppUpdateEvent(){}
 		EVENT_CLASS_TYPE(AppUpdate)
@@ -56,7 +56,7 @@ namespace SunEngine {
 	/// <summary>
 	/// 程序渲染事件
 	/// </summary>
-	class SUN_API AppRenderEvent :public Event {
+	class AppRenderEvent :public Event {
 	public:
 		AppRenderEvent(){}
 		EVENT_CLASS_TYPE(AppRender)

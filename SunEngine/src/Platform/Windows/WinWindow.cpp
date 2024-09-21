@@ -5,9 +5,9 @@
 #include "SunEngine/Events/KeyEvent.h"
 #include "SunEngine/Events/MouseEvent.h"
 #include "SunEngine/Events/ApplicationEvent.h"
+#include "Platform/OpenGL/OpenGLContext.h"
 
 #include <glad/glad.h>
-
 namespace SunEngine {
 	static bool m_GLFWInitialized = false;
 
@@ -33,7 +33,7 @@ namespace SunEngine {
 		m_Data.Height = props.Height;
 
 		SUN_CORE_INFO("创建窗口 {0} ({1}, {2})", props.Title, props.Width, props.Height);
-	
+
 		if (!m_GLFWInitialized)
 		{
 			int success = glfwInit();
@@ -42,10 +42,12 @@ namespace SunEngine {
 			m_GLFWInitialized = true;
 		}
 
+		//创建窗口，设置OpenGL上下文
 		m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
-		glfwMakeContextCurrent(m_Window);
-		int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-		SUN_CORE_ASSERT(status, "无法初始化Glad!");
+		
+		m_Context = new OpenGLContext(m_Window);
+		m_Context->Init(); 
+		
 		glfwSetWindowUserPointer(m_Window, &m_Data);
 		SetVSync(true);
 
@@ -138,7 +140,7 @@ namespace SunEngine {
 
 	void WinWindow::OnUpdate() {
 		glfwPollEvents();
-		glfwSwapBuffers(m_Window);
+		m_Context->SwapBuffers();
 	}
 
 	void WinWindow::SetVSync(bool enabled) {
