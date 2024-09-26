@@ -1,7 +1,6 @@
 #include "sunpch.h"
-#include "SunEngine/Core.h"
+#include "SunEngine/Core/Base.h"
 #include "OpenGLContext.h"
-#include "SunEngine/Log.h"
 #include <GLFW/glfw3.h>
 #include <glad/glad.h>
 namespace SunEngine {

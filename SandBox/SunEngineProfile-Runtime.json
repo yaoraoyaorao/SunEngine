@@ -1,0 +1,6826 @@
+{
+  "otherData": {},
+  "traceEvents": [
+    {},
+    {
+      "cat": "function",
+      "dur": 43,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992318833.500
+    },
+    {
+      "cat": "function",
+      "dur": 1044,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992318833.300
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992362388.100
+    },
+    {
+      "cat": "function",
+      "dur": 507,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992362387.800
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992371758.100
+    },
+    {
+      "cat": "function",
+      "dur": 386,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992371757.800
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992382399.600
+    },
+    {
+      "cat": "function",
+      "dur": 341,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992382399.300
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992388940.900
+    },
+    {
+      "cat": "function",
+      "dur": 455,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992388940.600
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992394984.300
+    },
+    {
+      "cat": "function",
+      "dur": 348,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992394984.000
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992401758.200
+    },
+    {
+      "cat": "function",
+      "dur": 718,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992401757.800
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992413798.000
+    },
+    {
+      "cat": "function",
+      "dur": 471,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992413797.600
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992419871.800
+    },
+    {
+      "cat": "function",
+      "dur": 512,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992419871.500
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992432073.000
+    },
+    {
+      "cat": "function",
+      "dur": 709,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992432072.600
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992443050.800
+    },
+    {
+      "cat": "function",
+      "dur": 498,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992443050.500
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992450465.900
+    },
+    {
+      "cat": "function",
+      "dur": 371,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992450465.600
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992455563.400
+    },
+    {
+      "cat": "function",
+      "dur": 365,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992455563.100
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992461651.200
+    },
+    {
+      "cat": "function",
+      "dur": 403,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992461650.900
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992467519.600
+    },
+    {
+      "cat": "function",
+      "dur": 420,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992467519.300
+    },
+    {
+      "cat": "function",
+      "dur": 36,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992473491.000
+    },
+    {
+      "cat": "function",
+      "dur": 357,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992473490.600
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992479563.500
+    },
+    {
+      "cat": "function",
+      "dur": 357,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992479563.200
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992485368.700
+    },
+    {
+      "cat": "function",
+      "dur": 327,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992485368.300
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992491696.400
+    },
+    {
+      "cat": "function",
+      "dur": 335,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992491696.100
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992497833.200
+    },
+    {
+      "cat": "function",
+      "dur": 438,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992497832.900
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992503847.100
+    },
+    {
+      "cat": "function",
+      "dur": 332,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992503846.900
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992509917.200
+    },
+    {
+      "cat": "function",
+      "dur": 329,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992509916.900
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992515841.700
+    },
+    {
+      "cat": "function",
+      "dur": 319,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992515841.400
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992523043.900
+    },
+    {
+      "cat": "function",
+      "dur": 326,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992523043.600
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992533966.900
+    },
+    {
+      "cat": "function",
+      "dur": 341,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992533966.600
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992539837.300
+    },
+    {
+      "cat": "function",
+      "dur": 445,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992539837.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992545935.300
+    },
+    {
+      "cat": "function",
+      "dur": 336,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992545935.000
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992552559.600
+    },
+    {
+      "cat": "function",
+      "dur": 443,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992552559.100
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992558431.500
+    },
+    {
+      "cat": "function",
+      "dur": 731,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992558431.200
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992565060.000
+    },
+    {
+      "cat": "function",
+      "dur": 423,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992565059.600
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992577728.800
+    },
+    {
+      "cat": "function",
+      "dur": 390,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992577728.600
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992582586.100
+    },
+    {
+      "cat": "function",
+      "dur": 349,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992582585.700
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992588831.700
+    },
+    {
+      "cat": "function",
+      "dur": 456,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992588831.400
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992594875.800
+    },
+    {
+      "cat": "function",
+      "dur": 353,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992594875.500
+    },
+    {
+      "cat": "function",
+      "dur": 22,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992601439.600
+    },
+    {
+      "cat": "function",
+      "dur": 361,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992601439.400
+    },
+    {
+      "cat": "function",
+      "dur": 23,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992607095.700
+    },
+    {
+      "cat": "function",
+      "dur": 250,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992607095.400
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992612888.200
+    },
+    {
+      "cat": "function",
+      "dur": 253,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992612887.900
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992618783.900
+    },
+    {
+      "cat": "function",
+      "dur": 332,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992618783.600
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992624749.100
+    },
+    {
+      "cat": "function",
+      "dur": 254,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992624748.800
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992631138.900
+    },
+    {
+      "cat": "function",
+      "dur": 375,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992631138.500
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992637162.000
+    },
+    {
+      "cat": "function",
+      "dur": 497,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992637161.800
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992643921.100
+    },
+    {
+      "cat": "function",
+      "dur": 264,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992643920.800
+    },
+    {
+      "cat": "function",
+      "dur": 33,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992656225.900
+    },
+    {
+      "cat": "function",
+      "dur": 361,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992656225.600
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992661519.200
+    },
+    {
+      "cat": "function",
+      "dur": 381,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992661518.900
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992668087.700
+    },
+    {
+      "cat": "function",
+      "dur": 853,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992668087.400
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992689263.200
+    },
+    {
+      "cat": "function",
+      "dur": 357,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992689263.000
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992699236.900
+    },
+    {
+      "cat": "function",
+      "dur": 411,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992699236.600
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992709958.400
+    },
+    {
+      "cat": "function",
+      "dur": 351,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992709958.200
+    },
+    {
+      "cat": "function",
+      "dur": 35,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992716588.600
+    },
+    {
+      "cat": "function",
+      "dur": 520,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992716588.200
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992722604.000
+    },
+    {
+      "cat": "function",
+      "dur": 479,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992722603.700
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992729303.200
+    },
+    {
+      "cat": "function",
+      "dur": 363,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992729302.900
+    },
+    {
+      "cat": "function",
+      "dur": 22,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992734819.900
+    },
+    {
+      "cat": "function",
+      "dur": 372,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992734819.600
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992741007.900
+    },
+    {
+      "cat": "function",
+      "dur": 345,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992741007.500
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992753199.000
+    },
+    {
+      "cat": "function",
+      "dur": 537,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992753198.100
+    },
+    {
+      "cat": "function",
+      "dur": 33,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992765489.500
+    },
+    {
+      "cat": "function",
+      "dur": 496,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992765489.100
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992773429.100
+    },
+    {
+      "cat": "function",
+      "dur": 264,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992773428.900
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992790682.000
+    },
+    {
+      "cat": "function",
+      "dur": 399,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992790681.700
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992802933.800
+    },
+    {
+      "cat": "function",
+      "dur": 431,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992802933.500
+    },
+    {
+      "cat": "function",
+      "dur": 33,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992810508.600
+    },
+    {
+      "cat": "function",
+      "dur": 570,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992810508.000
+    },
+    {
+      "cat": "function",
+      "dur": 34,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992819912.900
+    },
+    {
+      "cat": "function",
+      "dur": 506,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992819912.700
+    },
+    {
+      "cat": "function",
+      "dur": 36,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992826966.500
+    },
+    {
+      "cat": "function",
+      "dur": 495,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992826966.200
+    },
+    {
+      "cat": "function",
+      "dur": 35,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992832204.600
+    },
+    {
+      "cat": "function",
+      "dur": 495,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992832204.300
+    },
+    {
+      "cat": "function",
+      "dur": 33,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992838160.700
+    },
+    {
+      "cat": "function",
+      "dur": 469,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992838160.400
+    },
+    {
+      "cat": "function",
+      "dur": 33,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992849861.500
+    },
+    {
+      "cat": "function",
+      "dur": 531,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992849861.200
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992859277.900
+    },
+    {
+      "cat": "function",
+      "dur": 479,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992859277.600
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992868740.200
+    },
+    {
+      "cat": "function",
+      "dur": 448,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992868739.900
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992880573.900
+    },
+    {
+      "cat": "function",
+      "dur": 437,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992880573.600
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992886984.300
+    },
+    {
+      "cat": "function",
+      "dur": 414,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992886983.900
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992899014.400
+    },
+    {
+      "cat": "function",
+      "dur": 572,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992899014.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992910690.300
+    },
+    {
+      "cat": "function",
+      "dur": 457,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992910690.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992917599.200
+    },
+    {
+      "cat": "function",
+      "dur": 465,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992917598.900
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992923470.000
+    },
+    {
+      "cat": "function",
+      "dur": 428,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992923469.700
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992929586.400
+    },
+    {
+      "cat": "function",
+      "dur": 483,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992929586.000
+    },
+    {
+      "cat": "function",
+      "dur": 37,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992940668.400
+    },
+    {
+      "cat": "function",
+      "dur": 433,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992940668.000
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992946016.300
+    },
+    {
+      "cat": "function",
+      "dur": 455,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992946015.900
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992953763.300
+    },
+    {
+      "cat": "function",
+      "dur": 435,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992953763.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992958614.100
+    },
+    {
+      "cat": "function",
+      "dur": 391,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992958613.700
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992963754.800
+    },
+    {
+      "cat": "function",
+      "dur": 465,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992963754.400
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992971054.500
+    },
+    {
+      "cat": "function",
+      "dur": 4116,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992971054.200
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992989371.500
+    },
+    {
+      "cat": "function",
+      "dur": 415,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992989371.200
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992996580.600
+    },
+    {
+      "cat": "function",
+      "dur": 313,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21992996580.400
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993005141.600
+    },
+    {
+      "cat": "function",
+      "dur": 407,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993005141.300
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993011897.100
+    },
+    {
+      "cat": "function",
+      "dur": 468,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993011896.800
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993022332.800
+    },
+    {
+      "cat": "function",
+      "dur": 372,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993022332.200
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993034841.200
+    },
+    {
+      "cat": "function",
+      "dur": 377,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993034840.800
+    },
+    {
+      "cat": "function",
+      "dur": 36,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993042648.900
+    },
+    {
+      "cat": "function",
+      "dur": 495,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993042648.300
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993049584.600
+    },
+    {
+      "cat": "function",
+      "dur": 456,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993049584.200
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993057282.600
+    },
+    {
+      "cat": "function",
+      "dur": 359,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993057282.100
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993062054.400
+    },
+    {
+      "cat": "function",
+      "dur": 420,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993062054.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993068347.500
+    },
+    {
+      "cat": "function",
+      "dur": 407,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993068347.200
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993076669.800
+    },
+    {
+      "cat": "function",
+      "dur": 401,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993076669.400
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993085611.200
+    },
+    {
+      "cat": "function",
+      "dur": 363,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993085610.900
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993091500.200
+    },
+    {
+      "cat": "function",
+      "dur": 817,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993091499.800
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993101597.000
+    },
+    {
+      "cat": "function",
+      "dur": 434,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993101596.600
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993109041.200
+    },
+    {
+      "cat": "function",
+      "dur": 439,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993109040.900
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993115844.600
+    },
+    {
+      "cat": "function",
+      "dur": 403,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993115844.300
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993121239.400
+    },
+    {
+      "cat": "function",
+      "dur": 457,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993121239.100
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993128904.400
+    },
+    {
+      "cat": "function",
+      "dur": 337,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993128904.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993133472.400
+    },
+    {
+      "cat": "function",
+      "dur": 395,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993133472.000
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993141530.100
+    },
+    {
+      "cat": "function",
+      "dur": 412,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993141529.900
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993147005.800
+    },
+    {
+      "cat": "function",
+      "dur": 455,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993147005.500
+    },
+    {
+      "cat": "function",
+      "dur": 37,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993151738.900
+    },
+    {
+      "cat": "function",
+      "dur": 383,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993151738.500
+    },
+    {
+      "cat": "function",
+      "dur": 35,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993157724.900
+    },
+    {
+      "cat": "function",
+      "dur": 460,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993157724.500
+    },
+    {
+      "cat": "function",
+      "dur": 35,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993163801.800
+    },
+    {
+      "cat": "function",
+      "dur": 471,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993163801.500
+    },
+    {
+      "cat": "function",
+      "dur": 34,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993170100.700
+    },
+    {
+      "cat": "function",
+      "dur": 435,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993170100.300
+    },
+    {
+      "cat": "function",
+      "dur": 41,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993176161.600
+    },
+    {
+      "cat": "function",
+      "dur": 595,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993176161.300
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993182299.300
+    },
+    {
+      "cat": "function",
+      "dur": 450,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993182298.800
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993189835.000
+    },
+    {
+      "cat": "function",
+      "dur": 379,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993189834.600
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993194216.000
+    },
+    {
+      "cat": "function",
+      "dur": 472,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993194215.600
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993201421.200
+    },
+    {
+      "cat": "function",
+      "dur": 439,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993201420.900
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993206123.300
+    },
+    {
+      "cat": "function",
+      "dur": 429,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993206122.700
+    },
+    {
+      "cat": "function",
+      "dur": 38,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993212144.800
+    },
+    {
+      "cat": "function",
+      "dur": 468,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993212144.400
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993218457.400
+    },
+    {
+      "cat": "function",
+      "dur": 372,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993218457.000
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993224270.400
+    },
+    {
+      "cat": "function",
+      "dur": 430,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993224270.000
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993230873.700
+    },
+    {
+      "cat": "function",
+      "dur": 435,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993230873.200
+    },
+    {
+      "cat": "function",
+      "dur": 36,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993236581.300
+    },
+    {
+      "cat": "function",
+      "dur": 449,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993236581.000
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993242301.000
+    },
+    {
+      "cat": "function",
+      "dur": 419,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993242300.700
+    },
+    {
+      "cat": "function",
+      "dur": 37,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993248195.500
+    },
+    {
+      "cat": "function",
+      "dur": 429,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993248195.100
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993254730.100
+    },
+    {
+      "cat": "function",
+      "dur": 416,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993254729.600
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993260553.600
+    },
+    {
+      "cat": "function",
+      "dur": 436,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993260553.200
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993268076.100
+    },
+    {
+      "cat": "function",
+      "dur": 424,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993268075.800
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993274459.300
+    },
+    {
+      "cat": "function",
+      "dur": 468,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21993274459.000
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994543373.900
+    },
+    {
+      "cat": "function",
+      "dur": 425,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994543373.600
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994551793.300
+    },
+    {
+      "cat": "function",
+      "dur": 398,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994551793.000
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994558124.400
+    },
+    {
+      "cat": "function",
+      "dur": 314,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994558124.100
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994564119.300
+    },
+    {
+      "cat": "function",
+      "dur": 381,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994564119.000
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994569668.800
+    },
+    {
+      "cat": "function",
+      "dur": 324,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994569668.600
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994576261.400
+    },
+    {
+      "cat": "function",
+      "dur": 400,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994576261.100
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994581761.600
+    },
+    {
+      "cat": "function",
+      "dur": 333,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994581761.300
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994588311.700
+    },
+    {
+      "cat": "function",
+      "dur": 373,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994588311.300
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994594342.700
+    },
+    {
+      "cat": "function",
+      "dur": 368,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994594342.300
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994600296.900
+    },
+    {
+      "cat": "function",
+      "dur": 360,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994600296.700
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994606727.800
+    },
+    {
+      "cat": "function",
+      "dur": 347,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994606727.300
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994612178.900
+    },
+    {
+      "cat": "function",
+      "dur": 353,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994612178.600
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994618284.000
+    },
+    {
+      "cat": "function",
+      "dur": 369,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994618283.700
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994624459.600
+    },
+    {
+      "cat": "function",
+      "dur": 346,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994624459.300
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994630765.700
+    },
+    {
+      "cat": "function",
+      "dur": 355,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994630765.200
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994636590.300
+    },
+    {
+      "cat": "function",
+      "dur": 327,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994636590.100
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994643833.500
+    },
+    {
+      "cat": "function",
+      "dur": 333,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994643833.100
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994654751.500
+    },
+    {
+      "cat": "function",
+      "dur": 233,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994654751.400
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994660911.800
+    },
+    {
+      "cat": "function",
+      "dur": 330,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994660911.500
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994666820.100
+    },
+    {
+      "cat": "function",
+      "dur": 303,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994666819.800
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994672994.100
+    },
+    {
+      "cat": "function",
+      "dur": 366,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994672993.900
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994678967.300
+    },
+    {
+      "cat": "function",
+      "dur": 308,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994678967.000
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994685078.100
+    },
+    {
+      "cat": "function",
+      "dur": 229,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994685077.700
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994691127.600
+    },
+    {
+      "cat": "function",
+      "dur": 439,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994691127.300
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994697826.200
+    },
+    {
+      "cat": "function",
+      "dur": 222,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994697826.000
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994709514.100
+    },
+    {
+      "cat": "function",
+      "dur": 251,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994709513.900
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994715059.100
+    },
+    {
+      "cat": "function",
+      "dur": 233,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994715058.800
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994721131.300
+    },
+    {
+      "cat": "function",
+      "dur": 317,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994721131.000
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994727103.100
+    },
+    {
+      "cat": "function",
+      "dur": 397,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994727102.900
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994732990.000
+    },
+    {
+      "cat": "function",
+      "dur": 286,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994732989.700
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994738746.000
+    },
+    {
+      "cat": "function",
+      "dur": 308,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994738745.700
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994744730.700
+    },
+    {
+      "cat": "function",
+      "dur": 294,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994744730.500
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994751191.400
+    },
+    {
+      "cat": "function",
+      "dur": 262,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994751191.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994756857.100
+    },
+    {
+      "cat": "function",
+      "dur": 219,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994756856.800
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994763056.400
+    },
+    {
+      "cat": "function",
+      "dur": 313,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994763056.100
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994769081.600
+    },
+    {
+      "cat": "function",
+      "dur": 317,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994769081.300
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994775169.100
+    },
+    {
+      "cat": "function",
+      "dur": 337,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994775168.900
+    },
+    {
+      "cat": "function",
+      "dur": 36,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994781323.000
+    },
+    {
+      "cat": "function",
+      "dur": 415,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994781322.700
+    },
+    {
+      "cat": "function",
+      "dur": 34,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994787690.200
+    },
+    {
+      "cat": "function",
+      "dur": 689,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994787689.700
+    },
+    {
+      "cat": "function",
+      "dur": 70,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994794842.200
+    },
+    {
+      "cat": "function",
+      "dur": 611,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994794840.000
+    },
+    {
+      "cat": "function",
+      "dur": 55,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994800839.800
+    },
+    {
+      "cat": "function",
+      "dur": 503,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994800839.100
+    },
+    {
+      "cat": "function",
+      "dur": 35,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994806398.400
+    },
+    {
+      "cat": "function",
+      "dur": 406,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994806397.800
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994812846.600
+    },
+    {
+      "cat": "function",
+      "dur": 505,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994812846.300
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994822469.600
+    },
+    {
+      "cat": "function",
+      "dur": 440,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994822469.400
+    },
+    {
+      "cat": "function",
+      "dur": 37,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994830298.600
+    },
+    {
+      "cat": "function",
+      "dur": 462,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994830298.200
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994836241.500
+    },
+    {
+      "cat": "function",
+      "dur": 478,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994836241.100
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994843976.600
+    },
+    {
+      "cat": "function",
+      "dur": 373,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994843976.300
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994852266.300
+    },
+    {
+      "cat": "function",
+      "dur": 438,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994852265.700
+    },
+    {
+      "cat": "function",
+      "dur": 34,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994860403.700
+    },
+    {
+      "cat": "function",
+      "dur": 391,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994860403.100
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994867494.300
+    },
+    {
+      "cat": "function",
+      "dur": 370,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994867494.000
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994873352.900
+    },
+    {
+      "cat": "function",
+      "dur": 328,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994873352.700
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994880253.900
+    },
+    {
+      "cat": "function",
+      "dur": 425,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994880253.600
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994887253.700
+    },
+    {
+      "cat": "function",
+      "dur": 386,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994887253.400
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994893918.100
+    },
+    {
+      "cat": "function",
+      "dur": 419,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994893917.500
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994899309.900
+    },
+    {
+      "cat": "function",
+      "dur": 417,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994899309.500
+    },
+    {
+      "cat": "function",
+      "dur": 30,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994904730.700
+    },
+    {
+      "cat": "function",
+      "dur": 355,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994904730.300
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994916012.100
+    },
+    {
+      "cat": "function",
+      "dur": 439,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994916011.800
+    },
+    {
+      "cat": "function",
+      "dur": 37,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994922329.500
+    },
+    {
+      "cat": "function",
+      "dur": 748,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994922329.200
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994929899.400
+    },
+    {
+      "cat": "function",
+      "dur": 371,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994929899.100
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994936001.200
+    },
+    {
+      "cat": "function",
+      "dur": 231,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994936001.000
+    },
+    {
+      "cat": "function",
+      "dur": 32,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994939383.900
+    },
+    {
+      "cat": "function",
+      "dur": 420,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994939383.500
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994945289.800
+    },
+    {
+      "cat": "function",
+      "dur": 321,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994945289.500
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994951269.600
+    },
+    {
+      "cat": "function",
+      "dur": 261,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994951269.400
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994957363.400
+    },
+    {
+      "cat": "function",
+      "dur": 247,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994957363.100
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994963334.500
+    },
+    {
+      "cat": "function",
+      "dur": 221,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994963334.300
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994969408.000
+    },
+    {
+      "cat": "function",
+      "dur": 393,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994969407.800
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994975558.200
+    },
+    {
+      "cat": "function",
+      "dur": 341,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994975558.000
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994981484.400
+    },
+    {
+      "cat": "function",
+      "dur": 361,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994981484.200
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994987880.600
+    },
+    {
+      "cat": "function",
+      "dur": 397,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994987880.200
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994994570.300
+    },
+    {
+      "cat": "function",
+      "dur": 301,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21994994570.000
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995000398.400
+    },
+    {
+      "cat": "function",
+      "dur": 456,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995000398.200
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995006556.500
+    },
+    {
+      "cat": "function",
+      "dur": 309,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995006556.300
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995012341.400
+    },
+    {
+      "cat": "function",
+      "dur": 301,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995012341.100
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995018458.900
+    },
+    {
+      "cat": "function",
+      "dur": 210,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995018458.700
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995024072.400
+    },
+    {
+      "cat": "function",
+      "dur": 329,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995024072.100
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995031210.400
+    },
+    {
+      "cat": "function",
+      "dur": 358,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995031210.200
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995037831.600
+    },
+    {
+      "cat": "function",
+      "dur": 593,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995037831.100
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995044827.300
+    },
+    {
+      "cat": "function",
+      "dur": 401,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995044827.000
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995050878.200
+    },
+    {
+      "cat": "function",
+      "dur": 433,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995050877.800
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995066890.100
+    },
+    {
+      "cat": "function",
+      "dur": 439,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995066889.900
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995077482.600
+    },
+    {
+      "cat": "function",
+      "dur": 358,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995077482.300
+    },
+    {
+      "cat": "function",
+      "dur": 34,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995086646.800
+    },
+    {
+      "cat": "function",
+      "dur": 492,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995086646.200
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995098640.400
+    },
+    {
+      "cat": "function",
+      "dur": 478,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995098640.100
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995103795.100
+    },
+    {
+      "cat": "function",
+      "dur": 448,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995103794.700
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995111468.800
+    },
+    {
+      "cat": "function",
+      "dur": 412,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995111468.500
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995122308.200
+    },
+    {
+      "cat": "function",
+      "dur": 357,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995122307.900
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995128592.300
+    },
+    {
+      "cat": "function",
+      "dur": 422,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995128592.000
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995134357.600
+    },
+    {
+      "cat": "function",
+      "dur": 360,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995134357.200
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995141005.900
+    },
+    {
+      "cat": "function",
+      "dur": 368,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995141005.700
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995146708.600
+    },
+    {
+      "cat": "function",
+      "dur": 520,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995146708.300
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995153072.400
+    },
+    {
+      "cat": "function",
+      "dur": 393,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995153071.900
+    },
+    {
+      "cat": "function",
+      "dur": 29,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995158893.500
+    },
+    {
+      "cat": "function",
+      "dur": 406,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995158893.000
+    },
+    {
+      "cat": "function",
+      "dur": 23,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995164898.800
+    },
+    {
+      "cat": "function",
+      "dur": 421,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995164898.600
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995171203.800
+    },
+    {
+      "cat": "function",
+      "dur": 410,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995171203.500
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995182721.100
+    },
+    {
+      "cat": "function",
+      "dur": 373,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995182720.700
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995188928.100
+    },
+    {
+      "cat": "function",
+      "dur": 316,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995188927.700
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995193818.300
+    },
+    {
+      "cat": "function",
+      "dur": 347,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995193818.000
+    },
+    {
+      "cat": "function",
+      "dur": 23,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995200924.800
+    },
+    {
+      "cat": "function",
+      "dur": 342,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995200924.600
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995205523.400
+    },
+    {
+      "cat": "function",
+      "dur": 298,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995205523.300
+    },
+    {
+      "cat": "function",
+      "dur": 22,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995211489.300
+    },
+    {
+      "cat": "function",
+      "dur": 268,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995211489.000
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995217692.600
+    },
+    {
+      "cat": "function",
+      "dur": 343,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995217692.400
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995223667.800
+    },
+    {
+      "cat": "function",
+      "dur": 324,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995223667.600
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995229878.800
+    },
+    {
+      "cat": "function",
+      "dur": 263,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995229878.300
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995235927.400
+    },
+    {
+      "cat": "function",
+      "dur": 333,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995235927.200
+    },
+    {
+      "cat": "function",
+      "dur": 31,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995242101.400
+    },
+    {
+      "cat": "function",
+      "dur": 350,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995242101.000
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995248129.600
+    },
+    {
+      "cat": "function",
+      "dur": 369,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995248129.300
+    },
+    {
+      "cat": "function",
+      "dur": 36,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995254260.200
+    },
+    {
+      "cat": "function",
+      "dur": 443,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995254259.800
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995260144.200
+    },
+    {
+      "cat": "function",
+      "dur": 316,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995260144.000
+    },
+    {
+      "cat": "function",
+      "dur": 22,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995266114.800
+    },
+    {
+      "cat": "function",
+      "dur": 272,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995266114.600
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995272068.200
+    },
+    {
+      "cat": "function",
+      "dur": 313,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995272068.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995278088.900
+    },
+    {
+      "cat": "function",
+      "dur": 224,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995278088.700
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995284176.100
+    },
+    {
+      "cat": "function",
+      "dur": 267,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995284175.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995290152.500
+    },
+    {
+      "cat": "function",
+      "dur": 268,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995290152.300
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995296343.600
+    },
+    {
+      "cat": "function",
+      "dur": 276,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995296343.200
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995303830.000
+    },
+    {
+      "cat": "function",
+      "dur": 220,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995303829.700
+    },
+    {
+      "cat": "function",
+      "dur": 28,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995308480.400
+    },
+    {
+      "cat": "function",
+      "dur": 254,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995308480.200
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995314378.500
+    },
+    {
+      "cat": "function",
+      "dur": 264,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995314378.400
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995320623.800
+    },
+    {
+      "cat": "function",
+      "dur": 310,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995320623.600
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995326565.000
+    },
+    {
+      "cat": "function",
+      "dur": 251,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995326564.800
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995332615.000
+    },
+    {
+      "cat": "function",
+      "dur": 313,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995332614.600
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995338716.000
+    },
+    {
+      "cat": "function",
+      "dur": 280,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995338715.700
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995344675.900
+    },
+    {
+      "cat": "function",
+      "dur": 268,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995344675.800
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995350799.000
+    },
+    {
+      "cat": "function",
+      "dur": 273,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995350798.600
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995356831.600
+    },
+    {
+      "cat": "function",
+      "dur": 219,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995356831.400
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995362985.200
+    },
+    {
+      "cat": "function",
+      "dur": 217,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995362985.000
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995368976.100
+    },
+    {
+      "cat": "function",
+      "dur": 200,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995368975.700
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995375422.000
+    },
+    {
+      "cat": "function",
+      "dur": 268,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995375421.800
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995381259.900
+    },
+    {
+      "cat": "function",
+      "dur": 235,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995381259.700
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995387265.500
+    },
+    {
+      "cat": "function",
+      "dur": 259,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995387265.400
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995393270.500
+    },
+    {
+      "cat": "function",
+      "dur": 321,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995393270.200
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995399334.100
+    },
+    {
+      "cat": "function",
+      "dur": 207,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995399334.000
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995405570.100
+    },
+    {
+      "cat": "function",
+      "dur": 418,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995405569.800
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995411436.500
+    },
+    {
+      "cat": "function",
+      "dur": 236,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995411436.300
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995417526.400
+    },
+    {
+      "cat": "function",
+      "dur": 295,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995417526.200
+    },
+    {
+      "cat": "function",
+      "dur": 60,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995423728.100
+    },
+    {
+      "cat": "function",
+      "dur": 341,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995423727.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995429813.100
+    },
+    {
+      "cat": "function",
+      "dur": 241,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995429812.900
+    },
+    {
+      "cat": "function",
+      "dur": 43,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995435727.200
+    },
+    {
+      "cat": "function",
+      "dur": 310,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995435726.800
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995441853.800
+    },
+    {
+      "cat": "function",
+      "dur": 271,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995441853.500
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995447939.500
+    },
+    {
+      "cat": "function",
+      "dur": 229,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995447939.400
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995453983.400
+    },
+    {
+      "cat": "function",
+      "dur": 298,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995453983.200
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995459948.900
+    },
+    {
+      "cat": "function",
+      "dur": 281,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995459948.700
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995466268.700
+    },
+    {
+      "cat": "function",
+      "dur": 281,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995466268.400
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995472119.700
+    },
+    {
+      "cat": "function",
+      "dur": 309,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995472119.500
+    },
+    {
+      "cat": "function",
+      "dur": 23,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995478036.600
+    },
+    {
+      "cat": "function",
+      "dur": 255,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995478036.400
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995484282.800
+    },
+    {
+      "cat": "function",
+      "dur": 352,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995484282.400
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995490242.300
+    },
+    {
+      "cat": "function",
+      "dur": 287,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995490242.100
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995496322.400
+    },
+    {
+      "cat": "function",
+      "dur": 239,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995496322.200
+    },
+    {
+      "cat": "function",
+      "dur": 23,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995502304.300
+    },
+    {
+      "cat": "function",
+      "dur": 323,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995502304.000
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995508283.800
+    },
+    {
+      "cat": "function",
+      "dur": 205,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995508283.600
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995514554.000
+    },
+    {
+      "cat": "function",
+      "dur": 314,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995514553.700
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995520573.800
+    },
+    {
+      "cat": "function",
+      "dur": 335,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995520573.600
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995526728.400
+    },
+    {
+      "cat": "function",
+      "dur": 274,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995526728.100
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995532519.600
+    },
+    {
+      "cat": "function",
+      "dur": 333,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995532519.400
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995538631.200
+    },
+    {
+      "cat": "function",
+      "dur": 273,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995538630.900
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995544710.800
+    },
+    {
+      "cat": "function",
+      "dur": 307,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995544710.500
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995550781.900
+    },
+    {
+      "cat": "function",
+      "dur": 299,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995550781.600
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995556839.100
+    },
+    {
+      "cat": "function",
+      "dur": 226,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995556838.900
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995562849.100
+    },
+    {
+      "cat": "function",
+      "dur": 216,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995562848.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995570558.200
+    },
+    {
+      "cat": "function",
+      "dur": 249,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995570558.000
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995581775.800
+    },
+    {
+      "cat": "function",
+      "dur": 274,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995581775.500
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995587180.400
+    },
+    {
+      "cat": "function",
+      "dur": 264,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995587180.100
+    },
+    {
+      "cat": "function",
+      "dur": 27,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995593349.000
+    },
+    {
+      "cat": "function",
+      "dur": 318,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995593348.600
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995599439.800
+    },
+    {
+      "cat": "function",
+      "dur": 341,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995599439.600
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995605416.600
+    },
+    {
+      "cat": "function",
+      "dur": 259,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995605416.400
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995612648.900
+    },
+    {
+      "cat": "function",
+      "dur": 346,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995612648.700
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995617730.600
+    },
+    {
+      "cat": "function",
+      "dur": 246,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995617730.400
+    },
+    {
+      "cat": "function",
+      "dur": 33,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995623596.100
+    },
+    {
+      "cat": "function",
+      "dur": 424,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995623595.800
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995629508.900
+    },
+    {
+      "cat": "function",
+      "dur": 189,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995629508.600
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995635454.300
+    },
+    {
+      "cat": "function",
+      "dur": 207,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995635454.100
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995641659.400
+    },
+    {
+      "cat": "function",
+      "dur": 190,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995641659.200
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995647938.300
+    },
+    {
+      "cat": "function",
+      "dur": 255,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995647938.100
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995654158.300
+    },
+    {
+      "cat": "function",
+      "dur": 298,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995654158.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995661246.500
+    },
+    {
+      "cat": "function",
+      "dur": 207,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995661246.300
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995666050.700
+    },
+    {
+      "cat": "function",
+      "dur": 257,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995666050.500
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995672229.600
+    },
+    {
+      "cat": "function",
+      "dur": 270,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995672229.500
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995678240.300
+    },
+    {
+      "cat": "function",
+      "dur": 419,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995678240.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995684156.600
+    },
+    {
+      "cat": "function",
+      "dur": 215,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995684156.400
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995690273.500
+    },
+    {
+      "cat": "function",
+      "dur": 2996,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995690273.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995696096.800
+    },
+    {
+      "cat": "function",
+      "dur": 302,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995696096.600
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995702476.700
+    },
+    {
+      "cat": "function",
+      "dur": 283,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995702476.500
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995708549.500
+    },
+    {
+      "cat": "function",
+      "dur": 278,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995708549.300
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995714401.700
+    },
+    {
+      "cat": "function",
+      "dur": 289,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995714401.600
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995720522.400
+    },
+    {
+      "cat": "function",
+      "dur": 229,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995720522.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995726693.100
+    },
+    {
+      "cat": "function",
+      "dur": 260,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995726692.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995732646.600
+    },
+    {
+      "cat": "function",
+      "dur": 291,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995732646.500
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995738592.800
+    },
+    {
+      "cat": "function",
+      "dur": 203,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995738591.900
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995744613.400
+    },
+    {
+      "cat": "function",
+      "dur": 207,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995744613.200
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995750778.200
+    },
+    {
+      "cat": "function",
+      "dur": 217,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995750778.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995756988.800
+    },
+    {
+      "cat": "function",
+      "dur": 228,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995756988.600
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995763074.500
+    },
+    {
+      "cat": "function",
+      "dur": 305,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995763074.300
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995768880.000
+    },
+    {
+      "cat": "function",
+      "dur": 263,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995768879.800
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995775158.500
+    },
+    {
+      "cat": "function",
+      "dur": 231,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995775158.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995781099.000
+    },
+    {
+      "cat": "function",
+      "dur": 233,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995781098.900
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995787332.800
+    },
+    {
+      "cat": "function",
+      "dur": 347,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995787332.600
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995793195.500
+    },
+    {
+      "cat": "function",
+      "dur": 222,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995793195.300
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995799166.000
+    },
+    {
+      "cat": "function",
+      "dur": 251,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995799165.800
+    },
+    {
+      "cat": "function",
+      "dur": 26,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995805502.300
+    },
+    {
+      "cat": "function",
+      "dur": 352,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995805502.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995811429.500
+    },
+    {
+      "cat": "function",
+      "dur": 207,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995811424.600
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995817450.300
+    },
+    {
+      "cat": "function",
+      "dur": 244,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995817450.200
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995823839.000
+    },
+    {
+      "cat": "function",
+      "dur": 319,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995823838.700
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995829629.700
+    },
+    {
+      "cat": "function",
+      "dur": 214,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995829629.500
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995835619.800
+    },
+    {
+      "cat": "function",
+      "dur": 195,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995835619.600
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995842080.800
+    },
+    {
+      "cat": "function",
+      "dur": 284,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995842080.300
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995847676.700
+    },
+    {
+      "cat": "function",
+      "dur": 185,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995847676.400
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995853759.300
+    },
+    {
+      "cat": "function",
+      "dur": 192,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995853759.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995859799.000
+    },
+    {
+      "cat": "function",
+      "dur": 202,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995859798.300
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995865903.000
+    },
+    {
+      "cat": "function",
+      "dur": 196,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995865902.800
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995872015.100
+    },
+    {
+      "cat": "function",
+      "dur": 193,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995872015.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995877982.700
+    },
+    {
+      "cat": "function",
+      "dur": 194,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995877982.300
+    },
+    {
+      "cat": "function",
+      "dur": 15,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995884001.000
+    },
+    {
+      "cat": "function",
+      "dur": 175,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995884000.700
+    },
+    {
+      "cat": "function",
+      "dur": 38,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995890259.200
+    },
+    {
+      "cat": "function",
+      "dur": 307,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995890259.000
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995896225.700
+    },
+    {
+      "cat": "function",
+      "dur": 200,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995896225.500
+    },
+    {
+      "cat": "function",
+      "dur": 14,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995902325.600
+    },
+    {
+      "cat": "function",
+      "dur": 172,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995902325.400
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995908157.100
+    },
+    {
+      "cat": "function",
+      "dur": 197,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995908156.400
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995914527.500
+    },
+    {
+      "cat": "function",
+      "dur": 361,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995914527.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995920517.300
+    },
+    {
+      "cat": "function",
+      "dur": 208,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995920517.000
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995926623.600
+    },
+    {
+      "cat": "function",
+      "dur": 221,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995926623.300
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995932576.000
+    },
+    {
+      "cat": "function",
+      "dur": 215,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995932575.800
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995938673.100
+    },
+    {
+      "cat": "function",
+      "dur": 204,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995938672.900
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995944750.400
+    },
+    {
+      "cat": "function",
+      "dur": 216,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995944750.200
+    },
+    {
+      "cat": "function",
+      "dur": 25,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995950921.600
+    },
+    {
+      "cat": "function",
+      "dur": 302,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995950921.400
+    },
+    {
+      "cat": "function",
+      "dur": 15,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995956856.000
+    },
+    {
+      "cat": "function",
+      "dur": 200,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995956855.700
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995962805.000
+    },
+    {
+      "cat": "function",
+      "dur": 204,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995962804.700
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995968877.600
+    },
+    {
+      "cat": "function",
+      "dur": 194,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995968877.400
+    },
+    {
+      "cat": "function",
+      "dur": 15,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995974943.200
+    },
+    {
+      "cat": "function",
+      "dur": 185,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995974942.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995981139.000
+    },
+    {
+      "cat": "function",
+      "dur": 206,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995981138.700
+    },
+    {
+      "cat": "function",
+      "dur": 15,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995987185.200
+    },
+    {
+      "cat": "function",
+      "dur": 183,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995987184.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995993268.400
+    },
+    {
+      "cat": "function",
+      "dur": 208,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995993268.200
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995999294.900
+    },
+    {
+      "cat": "function",
+      "dur": 295,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21995999294.800
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996005250.900
+    },
+    {
+      "cat": "function",
+      "dur": 199,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996005250.700
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996011537.100
+    },
+    {
+      "cat": "function",
+      "dur": 200,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996011536.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996017443.100
+    },
+    {
+      "cat": "function",
+      "dur": 226,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996017442.800
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996023569.600
+    },
+    {
+      "cat": "function",
+      "dur": 248,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996023569.400
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996029952.600
+    },
+    {
+      "cat": "function",
+      "dur": 311,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996029952.500
+    },
+    {
+      "cat": "function",
+      "dur": 17,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996035644.900
+    },
+    {
+      "cat": "function",
+      "dur": 205,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996035644.500
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996041703.100
+    },
+    {
+      "cat": "function",
+      "dur": 198,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996041702.700
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996047705.400
+    },
+    {
+      "cat": "function",
+      "dur": 198,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996047705.200
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996054297.300
+    },
+    {
+      "cat": "function",
+      "dur": 221,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996054297.100
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996060200.200
+    },
+    {
+      "cat": "function",
+      "dur": 259,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996060200.000
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996065916.900
+    },
+    {
+      "cat": "function",
+      "dur": 189,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996065916.700
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996072003.100
+    },
+    {
+      "cat": "function",
+      "dur": 190,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996072002.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996078432.700
+    },
+    {
+      "cat": "function",
+      "dur": 436,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996078432.500
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996093893.700
+    },
+    {
+      "cat": "function",
+      "dur": 297,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996093893.500
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996114839.300
+    },
+    {
+      "cat": "function",
+      "dur": 349,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996114839.100
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996121105.100
+    },
+    {
+      "cat": "function",
+      "dur": 224,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996121104.900
+    },
+    {
+      "cat": "function",
+      "dur": 16,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996127178.300
+    },
+    {
+      "cat": "function",
+      "dur": 194,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996127178.100
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996133703.700
+    },
+    {
+      "cat": "function",
+      "dur": 231,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996133703.400
+    },
+    {
+      "cat": "function",
+      "dur": 23,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996140272.200
+    },
+    {
+      "cat": "function",
+      "dur": 367,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996140272.000
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996146033.400
+    },
+    {
+      "cat": "function",
+      "dur": 223,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996146033.200
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996152284.100
+    },
+    {
+      "cat": "function",
+      "dur": 239,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996152283.800
+    },
+    {
+      "cat": "function",
+      "dur": 21,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996157987.400
+    },
+    {
+      "cat": "function",
+      "dur": 220,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996157987.000
+    },
+    {
+      "cat": "function",
+      "dur": 19,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996163988.700
+    },
+    {
+      "cat": "function",
+      "dur": 223,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996163988.300
+    },
+    {
+      "cat": "function",
+      "dur": 24,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996170147.800
+    },
+    {
+      "cat": "function",
+      "dur": 318,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996170147.500
+    },
+    {
+      "cat": "function",
+      "dur": 22,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996176246.200
+    },
+    {
+      "cat": "function",
+      "dur": 231,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996176245.900
+    },
+    {
+      "cat": "function",
+      "dur": 18,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996182475.200
+    },
+    {
+      "cat": "function",
+      "dur": 226,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996182475.000
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996188366.600
+    },
+    {
+      "cat": "function",
+      "dur": 231,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996188366.300
+    },
+    {
+      "cat": "function",
+      "dur": 20,
+      "name": "CameraController::OnUpdate",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996194220.100
+    },
+    {
+      "cat": "function",
+      "dur": 214,
+      "name": "void Sandbox2D::OnUpdate(class SunEngine::Timestep)",
+      "ph": "X",
+      "pid": 0,
+      "tid": 26168,
+      "ts": 21996194219.700
+    }

@@ -1,8 +1,8 @@
 #pragma once
-#include "Core.h"
+#include "Base.h"
 #include "Window.h"
 
-#include "SunEngine/LayerStack.h"
+#include "SunEngine/Core/LayerStack.h"
 #include "SunEngine/Core/TimeStep.h"
 #include "SunEngine/ImGui/ImGuiLayer.h"
 #include "SunEngine/Events/ApplicationEvent.h"
@@ -22,8 +22,10 @@ namespace SunEngine {
 		inline Window& GetWindow() { return *m_Window; }
 	private:
 		bool OnWindowClose(WindowCloseEvent& e);
+		bool OnWindowReasize(WindowResizeEvent& e);
 	private:
 		bool m_Running = true;
+		bool m_Minimized = false;
 		std::unique_ptr<Window> m_Window;
 		Timestep m_TimeStep;
 		ImGuiLayer* m_ImGuiLayer;

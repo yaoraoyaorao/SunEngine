@@ -1,7 +1,8 @@
 #include "sunpch.h"
-#include "SunEngine/Core.h"
-#include "SunEngine/Input.h"
-#include "SunEngine/KeyCodes.h"
+#include "SunEngine/Core/Base.h"
+#include "SunEngine/Core/Input.h"
+#include "SunEngine/Core/KeyCodes.h"
+#include "SunEngine/Core/MouseButtonCodes.h"
 #include "SunEngine/Events/Event.h"
 #include "OrthographicCameraController.h"
 namespace SunEngine {
@@ -13,7 +14,8 @@ namespace SunEngine {
 				 -m_ZoomLevel, m_ZoomLevel),
 		m_Rotation(rotation)
 	{
-
+		lastX = Input::GetMouseX();
+		lastY = Input::GetMouseY();
 	}
 
 	void OrthographicCameraController::OnUpdate(Timestep ts)

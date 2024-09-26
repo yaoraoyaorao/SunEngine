@@ -76,7 +76,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>sunpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SUN_PLATFORM_WINDOWS;SUN_BUILD_DLL;GLFW_INCLUDE_NONE;SUN_ENABLE_ASSERTS;SUN_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SUN_BUILD_DLL;GLFW_INCLUDE_NONE;SUN_ENABLE_ASSERTS;SUN_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;vendor\stb_image;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
@@ -97,7 +97,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>sunpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SUN_PLATFORM_WINDOWS;SUN_BUILD_DLL;GLFW_INCLUDE_NONE;SUN_ENABLE_ASSERTS;SUN_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SUN_BUILD_DLL;GLFW_INCLUDE_NONE;SUN_ENABLE_ASSERTS;SUN_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;vendor\stb_image;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -122,7 +122,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>sunpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SUN_PLATFORM_WINDOWS;SUN_BUILD_DLL;GLFW_INCLUDE_NONE;SUN_ENABLE_ASSERTS;SUN_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;SUN_BUILD_DLL;GLFW_INCLUDE_NONE;SUN_ENABLE_ASSERTS;SUN_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;vendor\stb_image;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -143,7 +143,6 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\SunEngine\Renderer\OrthographicCameraController.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLBuffer.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLContext.h" />
     <ClInclude Include="src\Platform\OpenGL\OpenGLRendererAPI.h" />
@@ -153,31 +152,35 @@
     <ClInclude Include="src\Platform\Windows\WinInput.h" />
     <ClInclude Include="src\Platform\Windows\WinWindow.h" />
     <ClInclude Include="src\SunEngine.h" />
-    <ClInclude Include="src\SunEngine\Application.h" />
-    <ClInclude Include="src\SunEngine\Core.h" />
+    <ClInclude Include="src\SunEngine\Core\Application.h" />
+    <ClInclude Include="src\SunEngine\Core\Base.h" />
+    <ClInclude Include="src\SunEngine\Core\EntryPoint.h" />
+    <ClInclude Include="src\SunEngine\Core\Input.h" />
+    <ClInclude Include="src\SunEngine\Core\KeyCodes.h" />
+    <ClInclude Include="src\SunEngine\Core\Layer.h" />
+    <ClInclude Include="src\SunEngine\Core\LayerStack.h" />
+    <ClInclude Include="src\SunEngine\Core\Log.h" />
+    <ClInclude Include="src\SunEngine\Core\MouseButtonCodes.h" />
+    <ClInclude Include="src\SunEngine\Core\PlatformDetection.h" />
     <ClInclude Include="src\SunEngine\Core\TimeStep.h" />
-    <ClInclude Include="src\SunEngine\EntryPoint.h" />
+    <ClInclude Include="src\SunEngine\Core\Window.h" />
+    <ClInclude Include="src\SunEngine\Debug\Instrumentor.h" />
     <ClInclude Include="src\SunEngine\Events\ApplicationEvent.h" />
     <ClInclude Include="src\SunEngine\Events\Event.h" />
     <ClInclude Include="src\SunEngine\Events\KeyEvent.h" />
     <ClInclude Include="src\SunEngine\Events\MouseEvent.h" />
     <ClInclude Include="src\SunEngine\ImGui\ImGuiLayer.h" />
-    <ClInclude Include="src\SunEngine\Input.h" />
-    <ClInclude Include="src\SunEngine\KeyCodes.h" />
-    <ClInclude Include="src\SunEngine\Layer.h" />
-    <ClInclude Include="src\SunEngine\LayerStack.h" />
-    <ClInclude Include="src\SunEngine\Log.h" />
-    <ClInclude Include="src\SunEngine\MouseButtonCodes.h" />
     <ClInclude Include="src\SunEngine\Renderer\Buffer.h" />
     <ClInclude Include="src\SunEngine\Renderer\GraphicsContext.h" />
     <ClInclude Include="src\SunEngine\Renderer\OrthographicCamera.h" />
+    <ClInclude Include="src\SunEngine\Renderer\OrthographicCameraController.h" />
     <ClInclude Include="src\SunEngine\Renderer\Renderer.h" />
+    <ClInclude Include="src\SunEngine\Renderer\Renderer2D.h" />
     <ClInclude Include="src\SunEngine\Renderer\RendererAPI.h" />
     <ClInclude Include="src\SunEngine\Renderer\RendererCommand.h" />
     <ClInclude Include="src\SunEngine\Renderer\Shader.h" />
     <ClInclude Include="src\SunEngine\Renderer\Texture.h" />
     <ClInclude Include="src\SunEngine\Renderer\VertexArray.h" />
-    <ClInclude Include="src\SunEngine\Window.h" />
     <ClInclude Include="src\sunpch.h" />
     <ClInclude Include="vendor\glm\glm\common.hpp" />
     <ClInclude Include="vendor\glm\glm\detail\_features.hpp" />
@@ -598,7 +601,6 @@
     <ClInclude Include="vendor\stb_image\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\SunEngine\Renderer\OrthographicCameraController.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGLBuffer.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGLContext.cpp" />
     <ClCompile Include="src\Platform\OpenGL\OpenGLRendererAPI.cpp" />
@@ -607,16 +609,18 @@
     <ClCompile Include="src\Platform\OpenGL\OpenGLVertexArray.cpp" />
     <ClCompile Include="src\Platform\Windows\WinInput.cpp" />
     <ClCompile Include="src\Platform\Windows\WinWindow.cpp" />
-    <ClCompile Include="src\SunEngine\Application.cpp" />
+    <ClCompile Include="src\SunEngine\Core\Application.cpp" />
+    <ClCompile Include="src\SunEngine\Core\Layer.cpp" />
+    <ClCompile Include="src\SunEngine\Core\LayerStack.cpp" />
+    <ClCompile Include="src\SunEngine\Core\Log.cpp" />
     <ClCompile Include="src\SunEngine\Core\TimeStep.cpp" />
     <ClCompile Include="src\SunEngine\ImGui\ImGuiBuild.cpp" />
     <ClCompile Include="src\SunEngine\ImGui\ImGuiLayer.cpp" />
-    <ClCompile Include="src\SunEngine\Layer.cpp" />
-    <ClCompile Include="src\SunEngine\LayerStack.cpp" />
-    <ClCompile Include="src\SunEngine\Log.cpp" />
     <ClCompile Include="src\SunEngine\Renderer\Buffer.cpp" />
     <ClCompile Include="src\SunEngine\Renderer\OrthographicCamera.cpp" />
+    <ClCompile Include="src\SunEngine\Renderer\OrthographicCameraController.cpp" />
     <ClCompile Include="src\SunEngine\Renderer\Renderer.cpp" />
+    <ClCompile Include="src\SunEngine\Renderer\Renderer2D.cpp" />
     <ClCompile Include="src\SunEngine\Renderer\RendererAPI.cpp" />
     <ClCompile Include="src\SunEngine\Renderer\RendererCommand.cpp" />
     <ClCompile Include="src\SunEngine\Renderer\Shader.cpp" />

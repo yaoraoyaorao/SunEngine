@@ -1,5 +1,5 @@
 #pragma once
-#include "SunEngine/Layer.h"
+#include "SunEngine/Core/Layer.h"
 namespace SunEngine {
 	class ImGuiLayer : public Layer
 	{
@@ -8,12 +8,9 @@ namespace SunEngine {
 		~ImGuiLayer();
 		virtual void OnAttach() override;
 		virtual void OnDetach() override;
-		virtual void OnImGuiRender() override;
 		void OnBegin();
 		void OnEnd();
 	private:
 		float m_Time = 0.0f;
 	};
 }
-
-

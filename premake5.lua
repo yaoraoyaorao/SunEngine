@@ -74,7 +74,6 @@ project "SunEngine"
 
         defines
         {
-            "SUN_PLATFORM_WINDOWS",
             "SUN_BUILD_DLL",
             "GLFW_INCLUDE_NONE",
             "SUN_ENABLE_ASSERTS"
@@ -131,7 +130,7 @@ project "SandBox"
 
         defines
         {
-            "SUN_PLATFORM_WINDOWS",
+           
         }
 
     filter "configurations:Debug"

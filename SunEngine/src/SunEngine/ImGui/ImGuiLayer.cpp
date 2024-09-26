@@ -1,13 +1,12 @@
 #include "sunpch.h"
 
 #include "ImGuiLayer.h"
-#include "SunEngine/Application.h"
-#include "SunEngine/Log.h"
+#include "SunEngine/Core/Application.h"
+
 #include <imgui.h>
 #include <imgui_internal.h>
 #include <backends/imgui_impl_glfw.h>
 #include <backends/imgui_impl_opengl3.h>
-
 #include <GLFW/glfw3.h>
 #include <glad/glad.h>
 namespace SunEngine
@@ -53,12 +52,6 @@ namespace SunEngine
 		ImGui::DestroyContext();
 
 		SUN_CORE_INFO("ImGuiLayer OnDetach");
-	}
-
-	void ImGuiLayer::OnImGuiRender()
-	{
-		static bool show = true;
-		ImGui::ShowDemoWindow(&show);
 	}
 
 	void ImGuiLayer::OnBegin()

@@ -1,5 +1,5 @@
 #pragma once
-#include "SunEngine/Window.h"
+#include "SunEngine/Core/Window.h"
 #include "SunEngine/Renderer/GraphicsContext.h"
 
 #include <GLFW/glfw3.h>

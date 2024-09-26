@@ -1,6 +1,6 @@
 #pragma once
-#include "SunEngine/Core.h"
-#include "SunEngine/Layer.h"
+#include "SunEngine/Core/Base.h"
+#include "SunEngine/Core/Layer.h"
 #include <vector>
 namespace SunEngine
 {

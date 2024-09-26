@@ -1,5 +1,6 @@
 #include "sunpch.h"
 #include "Renderer.h"
+#include "Renderer2D.h"
 #include "Platform/OpenGL/OpenGLShader.h"
 namespace SunEngine {
 	
@@ -8,6 +9,12 @@ namespace SunEngine {
 	void Renderer::Init() 
 	{
 		RendererCommand::Init();
+		Renderer2D::Init();
+	}
+
+	void Renderer::OnWindowResize(uint32_t width, uint32_t height)
+	{
+		RendererCommand::SetViewport(0, 0, width, height);
 	}
 	
 	void Renderer::BeginScene(OrthographicCamera& camera)
@@ -26,8 +33,8 @@ namespace SunEngine {
 		const glm::mat4& transform)
 	{
 		shader->Bind();
-		std::dynamic_pointer_cast<OpenGLShader>(shader)->UploadUniformMat4("u_ViewProjection", m_SceneData->ViewProjectionMatrix);
-		std::dynamic_pointer_cast<OpenGLShader>(shader)->UploadUniformMat4("u_Transform", transform);
+		shader->SetMat4("u_ViewProjection", m_SceneData->ViewProjectionMatrix);
+		shader->SetMat4("u_Transform", transform);
 
 		vertexArray->Bind();
 		RendererCommand::DrawIndexed(vertexArray);

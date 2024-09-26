@@ -19,6 +19,9 @@
     <Filter Include="src\SunEngine\Core">
       <UniqueIdentifier>{00864F65-EC69-10BB-55CA-0A0E41CDFA3C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\SunEngine\Debug">
+      <UniqueIdentifier>{1EA14C0F-8A02-2A1D-1370-70CF7FD060DC}</UniqueIdentifier>
+    </Filter>
     <Filter Include="src\SunEngine\Events">
       <UniqueIdentifier>{8C176BFC-78A6-F4C5-21C5-08C10D33056C}</UniqueIdentifier>
     </Filter>
@@ -81,17 +84,44 @@
     <ClInclude Include="src\SunEngine.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Application.h">
-      <Filter>src\SunEngine</Filter>
+    <ClInclude Include="src\SunEngine\Core\Application.h">
+      <Filter>src\SunEngine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Core.h">
-      <Filter>src\SunEngine</Filter>
+    <ClInclude Include="src\SunEngine\Core\Base.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\EntryPoint.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\Input.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\KeyCodes.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\Layer.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\LayerStack.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\Log.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\MouseButtonCodes.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Core\PlatformDetection.h">
+      <Filter>src\SunEngine\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\SunEngine\Core\TimeStep.h">
       <Filter>src\SunEngine\Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\EntryPoint.h">
-      <Filter>src\SunEngine</Filter>
+    <ClInclude Include="src\SunEngine\Core\Window.h">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Debug\Instrumentor.h">
+      <Filter>src\SunEngine\Debug</Filter>
     </ClInclude>
     <ClInclude Include="src\SunEngine\Events\ApplicationEvent.h">
       <Filter>src\SunEngine\Events</Filter>
@@ -108,24 +138,6 @@
     <ClInclude Include="src\SunEngine\ImGui\ImGuiLayer.h">
       <Filter>src\SunEngine\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Input.h">
-      <Filter>src\SunEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SunEngine\KeyCodes.h">
-      <Filter>src\SunEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SunEngine\Layer.h">
-      <Filter>src\SunEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SunEngine\LayerStack.h">
-      <Filter>src\SunEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SunEngine\Log.h">
-      <Filter>src\SunEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SunEngine\MouseButtonCodes.h">
-      <Filter>src\SunEngine</Filter>
-    </ClInclude>
     <ClInclude Include="src\SunEngine\Renderer\Buffer.h">
       <Filter>src\SunEngine\Renderer</Filter>
     </ClInclude>
@@ -135,7 +147,13 @@
     <ClInclude Include="src\SunEngine\Renderer\OrthographicCamera.h">
       <Filter>src\SunEngine\Renderer</Filter>
     </ClInclude>
+    <ClInclude Include="src\SunEngine\Renderer\OrthographicCameraController.h">
+      <Filter>src\SunEngine\Renderer</Filter>
+    </ClInclude>
     <ClInclude Include="src\SunEngine\Renderer\Renderer.h">
+      <Filter>src\SunEngine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunEngine\Renderer\Renderer2D.h">
       <Filter>src\SunEngine\Renderer</Filter>
     </ClInclude>
     <ClInclude Include="src\SunEngine\Renderer\RendererAPI.h">
@@ -152,9 +170,6 @@
     </ClInclude>
     <ClInclude Include="src\SunEngine\Renderer\VertexArray.h">
       <Filter>src\SunEngine\Renderer</Filter>
-    </ClInclude>
-    <ClInclude Include="src\SunEngine\Window.h">
-      <Filter>src\SunEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\sunpch.h">
       <Filter>src</Filter>
@@ -1410,7 +1425,6 @@
     <ClInclude Include="vendor\stb_image\stb_image.h">
       <Filter>vendor\stb_image</Filter>
     </ClInclude>
-    <ClInclude Include="src\SunEngine\Renderer\OrthographicCameraController.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Platform\OpenGL\OpenGLBuffer.cpp">
@@ -1437,8 +1451,17 @@
     <ClCompile Include="src\Platform\Windows\WinWindow.cpp">
       <Filter>src\Platform\Windows</Filter>
     </ClCompile>
-    <ClCompile Include="src\SunEngine\Application.cpp">
-      <Filter>src\SunEngine</Filter>
+    <ClCompile Include="src\SunEngine\Core\Application.cpp">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunEngine\Core\Layer.cpp">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunEngine\Core\LayerStack.cpp">
+      <Filter>src\SunEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunEngine\Core\Log.cpp">
+      <Filter>src\SunEngine\Core</Filter>
     </ClCompile>
     <ClCompile Include="src\SunEngine\Core\TimeStep.cpp">
       <Filter>src\SunEngine\Core</Filter>
@@ -1449,22 +1472,19 @@
     <ClCompile Include="src\SunEngine\ImGui\ImGuiLayer.cpp">
       <Filter>src\SunEngine\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="src\SunEngine\Layer.cpp">
-      <Filter>src\SunEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="src\SunEngine\LayerStack.cpp">
-      <Filter>src\SunEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="src\SunEngine\Log.cpp">
-      <Filter>src\SunEngine</Filter>
-    </ClCompile>
     <ClCompile Include="src\SunEngine\Renderer\Buffer.cpp">
       <Filter>src\SunEngine\Renderer</Filter>
     </ClCompile>
     <ClCompile Include="src\SunEngine\Renderer\OrthographicCamera.cpp">
       <Filter>src\SunEngine\Renderer</Filter>
     </ClCompile>
+    <ClCompile Include="src\SunEngine\Renderer\OrthographicCameraController.cpp">
+      <Filter>src\SunEngine\Renderer</Filter>
+    </ClCompile>
     <ClCompile Include="src\SunEngine\Renderer\Renderer.cpp">
+      <Filter>src\SunEngine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunEngine\Renderer\Renderer2D.cpp">
       <Filter>src\SunEngine\Renderer</Filter>
     </ClCompile>
     <ClCompile Include="src\SunEngine\Renderer\RendererAPI.cpp">
@@ -1488,6 +1508,5 @@
     <ClCompile Include="vendor\stb_image\stb_image.cpp">
       <Filter>vendor\stb_image</Filter>
     </ClCompile>
-    <ClCompile Include="src\SunEngine\Renderer\OrthographicCameraController.cpp" />
   </ItemGroup>
 </Project>

@@ -17,6 +17,9 @@ namespace SunEngine {
 		void OnEvent(Event& e);
 		OrthographicCamera& GetCamera() { return m_Camera; }
 		const OrthographicCamera& GetCamera() const { return m_Camera; }
+
+		void SetZoomLevel(float level) { m_ZoomLevel = level; }
+		float GetZoomLevel() const { return m_ZoomLevel; }
 	private:
 		bool OnMouseScrolled(MouseScrolledEvent& e);
 		bool OnWindowResized(WindowResizeEvent& e);
@@ -29,8 +32,11 @@ namespace SunEngine {
 		float m_CameraRotation = 0.0f;
 		glm::vec3 m_CmeraPosition = { 0.0f, 0.0f, 0.0f };
 
-		float m_CameraTranslationSpeed = 10.0f;
+		float m_CameraTranslationSpeed = 5.0f;
 		float m_CameraRotationSpeed = 180.0f;
+
+		float lastX = 0.0f;
+		float lastY = 0.0f;
 	};
 
 }

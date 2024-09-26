@@ -31,6 +31,7 @@ namespace SunEngine {
 	void Application::OnEvent(Event& e) {
 		EventDispatcher dispatcher(e);
 		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(Application::OnWindowClose));
+		dispatcher.Dispatch<WindowResizeEvent>(BIND_EVENT_FN(Application::OnWindowReasize));
 		
 		//传递事件给Layer层
 		for (auto it = m_LayerStack.end(); it != m_LayerStack.begin();)
@@ -48,11 +49,16 @@ namespace SunEngine {
 			Timestep timestep = time - m_LastFrameTime;
 			m_LastFrameTime = time;
 
-			//逻辑更新
-			for (Layer* layer : m_LayerStack)
+			if (!m_Minimized)
 			{
-				layer->OnUpdate(timestep);
+				//逻辑更新
+				for (Layer* layer : m_LayerStack)
+				{
+					layer->OnUpdate(timestep);
+				}
 			}
+
+
 
 			//渲染更新
 			m_ImGuiLayer->OnBegin();
@@ -80,5 +86,16 @@ namespace SunEngine {
 	bool Application::OnWindowClose(WindowCloseEvent& e) {
 		m_Running = false;
 		return true;
+	}
+	bool Application::OnWindowReasize(WindowResizeEvent& e)
+	{
+		if (e.GetWidth() == 0 || e.GetHeight() == 0)
+		{
+			m_Minimized = true;
+			return false;
+		}
+		m_Minimized = false;
+		Renderer::OnWindowResize(e.GetWidth(), e.GetHeight());
+		return false;
 	}
 }

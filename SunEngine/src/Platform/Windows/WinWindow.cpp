@@ -1,7 +1,6 @@
 #include "sunpch.h"
 #include "WinWindow.h"
 
-#include "SunEngine/Log.h"
 #include "SunEngine/Events/KeyEvent.h"
 #include "SunEngine/Events/MouseEvent.h"
 #include "SunEngine/Events/ApplicationEvent.h"
@@ -15,11 +14,12 @@ namespace SunEngine {
 		SUN_CORE_ERROR("GLFW´íÎó ({0}): {1}", error, description);
 	}
 
-	Window* Window::Create(const WindowProps& props) {
-		return new WinWindow(props);
+	Scope<Window> Window::Create(const WindowProps& props) {
+		return CreateScope<WinWindow>(props);
 	}
 
 	WinWindow::WinWindow(const WindowProps& props) {
+
 		Init(props);
 	}
 
@@ -28,6 +28,7 @@ namespace SunEngine {
 	}
 
 	void WinWindow::Init(const WindowProps& props) {
+		
 		m_Data.Title = props.Title;
 		m_Data.Width = props.Width;
 		m_Data.Height = props.Height;
@@ -135,6 +136,8 @@ namespace SunEngine {
 	}
 
 	void WinWindow::Shutdown() {
+
+		SUN_PROFILE_FUNCTION();
 		glfwDestroyWindow(m_Window);
 	}
 

@@ -13,12 +13,16 @@ namespace SunEngine {
 			m_RendererAPI->Init();
 		}
 
+		inline static void SetViewport(uint32_t x, uint32_t y, uint32_t width, uint32_t height) {
+			m_RendererAPI->SetViewport(x, y, width, height);
+		}
+
 		/// <summary>
 		/// ªÊ÷∆÷∏¡Ó
 		/// </summary>
 		/// <param name="vertexArray"></param>
-		inline static void DrawIndexed(const Ref<VertexArray>& vertexArray) {
-			m_RendererAPI->DrawIndexed(vertexArray);
+		inline static void DrawIndexed(const Ref<VertexArray>& vertexArray,uint32_t indexCount = 0) {
+			m_RendererAPI->DrawIndexed(vertexArray, indexCount);
 		}
 		
 		/// <summary>
@@ -34,7 +38,7 @@ namespace SunEngine {
 		/// </summary>
 		inline static void Clear() {
 			m_RendererAPI->Clear();
-		}
+		} 
 	private:
 		static RendererAPI* m_RendererAPI;
 	};

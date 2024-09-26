@@ -1,7 +1,7 @@
 #pragma once
 
 #include "sunpch.h"
-#include "SunEngine/Core.h"
+#include "SunEngine/Core/Base.h"
 #include "SunEngine/Events/Event.h"
 /*
 	抽象窗口类：平台无关
@@ -33,6 +33,6 @@ namespace SunEngine {
 
 		virtual void* GetNativeWindow() const = 0;
 		
-		static Window* Create(const WindowProps& props = WindowProps());
+		static Scope<Window> Create(const WindowProps& props = WindowProps());
 	};
 }

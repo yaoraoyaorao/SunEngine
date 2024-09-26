@@ -1,7 +1,7 @@
 #include "sunpch.h"
 #include "WinInput.h"
 
-#include "SunEngine/Application.h"
+#include "SunEngine/Core/Application.h"
 
 #include <GLFW/glfw3.h>
 
@@ -15,8 +15,8 @@ namespace SunEngine{
 		auto state = glfwGetKey(window, keycode);
 		return state == GLFW_PRESS || state == GLFW_REPEAT;
 	}
-	 
-	bool WinInput::IsMouseButtonPressedImpl(int button)
+
+	bool WinInput::IsMousePressedImpl(int button)
 	{
 		auto window = static_cast<GLFWwindow*>(Application::Instance().GetWindow().GetNativeWindow());
 		auto state = glfwGetMouseButton(window, button);
@@ -32,6 +32,7 @@ namespace SunEngine{
 	{
 		return GetMousePositionImpl().second;
 	}
+
 	std::pair<float, float> WinInput::GetMousePositionImpl()
 	{
 		auto window = static_cast<GLFWwindow*>(Application::Instance().GetWindow().GetNativeWindow());

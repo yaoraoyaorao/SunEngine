@@ -18,6 +18,15 @@ namespace SunEngine {
 		virtual void Init() = 0;
 		
 		/// <summary>
+		/// 设置视口
+		/// </summary>
+		/// <param name="x"></param>
+		/// <param name="y"></param>
+		/// <param name="width"></param>
+		/// <param name="height"></param>
+		virtual void SetViewport(uint32_t x, uint32_t y, uint32_t width, uint32_t height) = 0;
+
+		/// <summary>
 		/// 设置清除颜色
 		/// </summary>
 		/// <param name="color"></param>
@@ -32,7 +41,7 @@ namespace SunEngine {
 		/// 绘制
 		/// </summary>
 		/// <param name="vertexArray"></param>
-		virtual void DrawIndexed(const Ref<VertexArray>& vertexArray) = 0;
+		virtual void DrawIndexed(const Ref<VertexArray>& vertexArray,uint32_t indexCount = 0) = 0;
 		
 		/// <summary>
 		/// 获取当前使用API

@@ -1,6 +1,6 @@
 #include "sunpch.h"
 
-#include "SunEngine/Core.h"
+#include "SunEngine/Core/Base.h"
 #include "OpenGLVertexArray.h"
 
 #include <glad/glad.h>
